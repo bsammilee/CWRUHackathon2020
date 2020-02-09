@@ -1,0 +1,156 @@
+<head>
+<title>CourseFlow Home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  align: center;
+  background-color: #3BB9CF;
+  font-family: Comfortaa;
+  padding: 5%;
+}
+
+/* Style the header */
+header {
+  background-color: #3BB9CF;
+  padding: 0.001;
+  text-align: Left;
+  font-size: 65px;
+  color: white;
+  font-weight: bold;
+}
+
+/* top links */
+subheader {
+  background-color: #355488;
+  padding: 0px;
+  text-align: Right;
+  font-size: 19px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #3BB9CF;
+  padding-top: 20px;
+  height: 100%;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  width: 20%;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #555;
+  padding: 0px;
+  text-align: center;
+  color: white;
+  height 100%;
+}
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #777;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #555;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+</style>
+</head>
+<body>
+<header>
+  <p><i class="fa fa-angle-double-right" aria-hidden="true"></i> CourseFlow</p>
+  <subheader>
+    <div class="navbar">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Flowchart</a> -->
+        <a href="profile.html"><i class="fa fa-fw fa-user"></i> User</a>
+        <a href="courses.html"><i class="fa fa-pencil" aria-hidden="true"></i> Courses</a>
+        <a href="connections.html"><i class="fa fa-users" aria-hidden="true"></i> Connections</a>
+		<a href="flowChart.html"><i class="fa fa-code-fork" aria-hidden="true"></i> Flow Chart</a>
+		
+    <div>
+  </subheader>
+</header>
+
+<section>
+
+  <article>
+    <h1>Welcome to CourseFlow</h1>
+    <p></p>
+  </article>
+  </section>
+
+<link href="StyleSheet.css" rel="stylesheet">
+  
+<footer>
+  <p>Product of HackCWRU2020</p>
+</footer>
+
+</body>
